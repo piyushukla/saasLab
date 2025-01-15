@@ -1,0 +1,62 @@
+.app {
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px; /* Add padding to prevent white space */
+  max-width: 1200px; /* Prevent overly wide content */
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 24px;
+}
+
+.search-bar {
+  padding: 10px;
+  width: 100%; /* Full width on smaller screens */
+  max-width: 400px; /* Set a reasonable maximum width */
+  margin: 10px auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: block;
+  font-size: 16px;
+}
+
+.loading {
+  text-align: center;
+  font-size: 18px;
+  color: #007bff;
+  margin: 20px 0;
+}
+/* Filter container styling */
+.filter-container {
+  margin: 20px auto;
+  text-align: center;
+}
+
+.filter-container label {
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.filter-container input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.note-text {
+  font-size: 11px;
+  color: gray;
+  text-align: left;
+}
+@media (max-width: 480px) {
+  h1 {
+    font-size: 20px;
+  }
+
+  .search-bar {
+    width: 90%; /* Adjust to fit smaller screens */
+  }
+}
+

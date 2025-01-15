@@ -1,0 +1,42 @@
+table {
+  width: 100%;
+  margin: 0 auto; /* Center the table */
+  border-collapse: collapse;
+  background: white;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+th {
+  background-color: #f4f4f4;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+@media (max-width: 768px) {
+  table {
+    width: 100%; 
+  }
+
+  th, td {
+    padding: 8px;
+    font-size: 14px; 
+  }
+}
+
+@media (max-width: 480px) {
+  table {
+
+  }
+
+  th, td {
+    font-size: 12px; 
+    padding: 6px;
+  }
+}
